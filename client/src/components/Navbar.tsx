@@ -4,7 +4,7 @@ import { Link } from 'react-router';
 import { FaBars } from "react-icons/fa6";
 import { FaXmark } from "react-icons/fa6";
 import { PencilLine } from 'lucide-react';
-import { SignedIn, SignedOut, SignInButton, UserButton, useAuth } from '@clerk/clerk-react';
+import { SignedIn, SignedOut, UserButton } from '@clerk/clerk-react';
 
 const Navbar = () => {
 
